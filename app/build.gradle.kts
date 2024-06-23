@@ -51,10 +51,13 @@ android {
 
 dependencies {
 
+//    implementation(libs.androidx.material)
+
     implementation(libs.coil.compose)
     implementation(libs.ui.tooling.preview)
     debugImplementation(libs.ui.tooling)
-    implementation (libs.exoplayer)
+    implementation(libs.androidx.media3.exoplayer)
+    implementation(libs.androidx.media3.ui)
     implementation(libs.androidx.tv.foundation)
     implementation(libs.androidx.tv.material)
 
